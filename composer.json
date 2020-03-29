@@ -1,0 +1,23 @@
+{
+    "name": "alexkratky/filestream",
+    "description": "Thread safe file write & read",
+    "keywords": [],
+    "homepage": "https://panx.eu/",
+    "license": ["BSD"],
+    "authors": [
+        {
+            "name": "David Grudl",
+            "homepage": "https://davidgrudl.com/"
+        },
+        {
+            "name": "Alex Kratky",
+            "homepage": "https://alexkratky.com/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "files": ["src/loader.php"]
+    }
+}
